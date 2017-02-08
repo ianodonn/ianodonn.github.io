@@ -1,27 +1,103 @@
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image2 div {
+    margin-left: 50px;
+    width: 300px;
+}
+
+.image3 {
+    border: 20px solid white;
+    width: 200px;
+    margin-left: 50px;
+}
+
+#object {
+    font-size: 8pt;
+}
+
+#p202client {
+    font-size: 8pt;
+}
+
 h1 {
-    color: greenyellow;
+    color: white;
     font-size: 24px;
-    margin-bottom: 100px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid white;
+    position: absolute;
+    top: 400px;
+    left: 260px;
     text-align: center;
+    background-color: black;
+    padding: 3px;
+}
+
+#email {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 520px;
+    left: 260px;
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+}
+
+#phone {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 560px;
+    left: 260px;
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+}
+
+#intro {
+    position: absolute;
+    top: 450px;
+    left: 260px;
+    color: white;
+    background: black;
+    padding: 3px;
+    width: 500px;
+}
+
+#ideas {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+    color: white;
+    background: black;
+    padding: 3px;
+    width: 420px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 body {
-            padding-right: 20px;
-            color: white;
-            background-color: black;
+            color: black;
+            background-color: white;
+            font-family: 'Lato', sans-serif;
     }
+
+#tophead {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    background: black;
+    top: 0px;
+
+}
 
 #navlist li {
         display: inline;
         list-style-type: none;
         padding-right: 20px;
+        color: white;
     }
-#intro {
-    padding-left: 20px;
-}
 
-#splash {
-    padding-left: 20px;
-}
